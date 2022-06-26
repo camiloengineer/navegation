@@ -13,6 +13,7 @@
 		B2CF234D281EB52A00C94466 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2CF234B281EB52A00C94466 /* Main.storyboard */; };
 		B2CF234F281EB52C00C94466 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2CF234E281EB52C00C94466 /* Assets.xcassets */; };
 		B2CF2352281EB52C00C94466 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2CF2350281EB52C00C94466 /* LaunchScreen.storyboard */; };
+		B2F2EE822826B8B7006E207C /* ViewControllerColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F2EE812826B8B7006E207C /* ViewControllerColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B2CF234E281EB52C00C94466 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2CF2351281EB52C00C94466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2CF2353281EB52C00C94466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F2EE812826B8B7006E207C /* ViewControllerColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				B2CF2345281EB52A00C94466 /* AppDelegate.swift */,
+				B2CF234E281EB52C00C94466 /* Assets.xcassets */,
+				B2CF2353281EB52C00C94466 /* Info.plist */,
+				B2CF2350281EB52C00C94466 /* LaunchScreen.storyboard */,
+				B2CF234B281EB52A00C94466 /* Main.storyboard */,
 				B2CF2347281EB52A00C94466 /* SceneDelegate.swift */,
 				B2CF2349281EB52A00C94466 /* ViewController.swift */,
-				B2CF234B281EB52A00C94466 /* Main.storyboard */,
-				B2CF234E281EB52C00C94466 /* Assets.xcassets */,
-				B2CF2350281EB52C00C94466 /* LaunchScreen.storyboard */,
-				B2CF2353281EB52C00C94466 /* Info.plist */,
+				B2F2EE812826B8B7006E207C /* ViewControllerColor.swift */,
 			);
 			path = Navegacion;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2CF234A281EB52A00C94466 /* ViewController.swift in Sources */,
+				B2F2EE822826B8B7006E207C /* ViewControllerColor.swift in Sources */,
 				B2CF2346281EB52A00C94466 /* AppDelegate.swift in Sources */,
 				B2CF2348281EB52A00C94466 /* SceneDelegate.swift in Sources */,
 			);
